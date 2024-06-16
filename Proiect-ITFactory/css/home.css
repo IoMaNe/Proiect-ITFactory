@@ -1,0 +1,48 @@
+/*         Home          */
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    color: var(--text-1);
+}
+.home .home-info{
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+h3.hello{
+    font-size: 40px;
+    margin: 20px 0;
+}
+h3.hello span{
+    font-family: 'Clicker Script', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+h3.my-profession{
+    font-size: 30px;
+    margin: 15px 0;
+}
+h3.my-profession span{
+    color: var(--main-color);
+}
+.typing{
+    color: var(--main-color);
+}
+.home-info p{
+    margin-bottom: 70px;
+    font-size: 20px;
+    color: var(--text-2);
+}
+.home .home-img{
+    flex: 0 0 40%;
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+}
+.home .home-img img{
+    margin: auto;
+    border: 5px solid var(--main-color);
+    border-radius: 50% ;
+    height: 400px;
+}

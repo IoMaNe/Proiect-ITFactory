@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+
+div{
+        position: relative;
+        margin: auto;
+        width: 60%;
+        border-radius: 5px;
+        padding: 15px;
+        margin-top: 220px; 
+        background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+        border-style: outset;
+    }
+    
+    p{
+        position: relative;
+        margin: auto;
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+        font-size: 70px
+    }

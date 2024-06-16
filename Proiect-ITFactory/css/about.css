@@ -1,0 +1,97 @@
+/*     About      */
+
+.about-content{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.hidden {
+    display: none;
+}
+.about-text{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.about-text h3{
+   font-size: 24px;
+   margin-bottom: 15px;
+   font-weight: 700;
+   color: var(--text-1);
+}
+.about-text h3 span{
+    color: var(--main-color) ;
+}
+.about-text p{
+   font-size: 16px;
+   line-height: 25px;
+   color: var(--text-2);
+}
+.personal-info{
+    flex: 0 0 60%;
+    max-width: 60%;
+    margin-top: 40px;
+}
+.info-item{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.info-item p{
+   font-weight: 600;
+   padding: 10px 0;
+   font-size: 16px;
+   color: var(--text-1);
+   border-bottom: 1px solid var(--main-color);
+}
+.info-item p span{
+    font-weight: 400;
+    color: var(--text-2);
+    margin-left: 4px;
+    display: inline-block;
+}
+.education,
+.experience{
+    margin-top: 30px;
+}
+.about-content h3.title{
+   font-size: 24px;
+   margin-bottom: 30px;
+   font-weight: 700;
+   color: var(--text-1);
+   margin-left: 150px;
+   text-decoration: underline solid var(--main-color);
+}
+.timeline{
+    background-color: var(--background-2);
+    padding: 30px 15px;
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+.timeline-item:last-child{
+    padding-bottom: 0;
+}
+.timeline-item{
+    position: relative;
+    padding-left: 37px;
+    padding-bottom: 50px;
+}
+.timeline-date{
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: var(--main-color);
+}
+.timeline-date-year{
+   color: var(--text-1);
+}
+.timeline-date-year .fa{
+    margin-right: 10px;
+}
+.timeline-text{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--text-2);
+}

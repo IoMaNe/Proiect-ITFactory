@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formular</title>
+        <link rel="stylesheet" href="style.css/style_formular.css">
+    </head>
+    <body>
+         
+
+        <form action="blank.html" method="get" target="_blank">
+            <div>
+                <p class="titlu"> <strong>Inscriere la Examen</strong></p> 
+            </div>
+            
+            <br>
+            <div>
+                <label for="fullName">Nume complet:*</label>
+                <input type="text" id="fullName" name="fullName" required> 
+            </div>
+
+            <br>
+            <div>
+                <label for="email">Adresa de email:*</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <br>
+            <div>
+                <label for="examType">Tipul de examen:*</label>
+                <select id="examType" name="examType" required>
+                    <option value="">Alege o optiune</option>
+                    <option value="test">Test</option>
+                    <option value="examen">Examen</option>
+                    <option value="licenta">Licenta</option>
+                    <option value="master">Master</option>
+                    <option value="restanta">Restanta</option>
+                </select>
+            </div>
+
+            <br>
+            <div>
+
+                <label for="exmDate">Data examen:*</label>
+                <input type="date" id="exmDate" name="exmDate" 
+                value= "" min="2024-03-01" max="2024-12-31" required>
+
+            </div>
+
+            <br>
+            <div>
+
+                <label for="birthDate">Data nasterii:*</label>
+                <input type="date" id="birthDate" name="birthDate" required>
+
+            </div>
+
+            <br>
+            <div>
+
+                <label for="phone">Numar de telefon:*</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" maxlength="10" placeholder="Introduceți 10 cifre" required>
+                
+            </div>
+
+            <br>
+            <div>
+
+                <label for="address">Adresa:</label>
+                <textarea id="address" name="address" rows="4" cols="30"></textarea>
+
+            </div>
+
+            <br>
+            <div>
+
+                <label for="file">Dovada plata:</label>
+                <input type="file" id="file" accept="image/png, image/jpeg" >
+
+            </div>
+
+            <br>
+            <div>
+                <p>
+                    <strong>*Campuri obligatorii.</strong>
+                </p>
+            </div>
+
+            <br>
+            <div>
+
+                <input class="buton" type="submit" value="Înscrie-te">
+
+            </div>
+        </form>
+    </body>
+</html>

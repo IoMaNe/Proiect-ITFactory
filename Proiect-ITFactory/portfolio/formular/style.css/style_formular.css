@@ -1,0 +1,37 @@
+form{
+    position: relative;
+    margin: auto;
+    width: 20%;
+    padding: 15px;
+    margin-top: 120px; 
+    background-color: white;
+    border-radius: 5px;
+    border-style: outset;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+
+.titlu{
+    position: relative;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px
+}
+
+.buton{
+   margin-left: 110px;
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+    align-items: center;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
